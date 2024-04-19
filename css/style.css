@@ -1,8 +1,62 @@
-/* *{
+/* This will show the border for all elements */
+
+/* 
+*{
     border-style: solid;
     border-color: red;
 }
 */
+
 #addingNumbersList{
     list-style-type: circle;
 }
+
+/* Scrapbook styles */
+#scrapbookBg{
+    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS5Z1oXI_qgNiG0qj_4Yg817_bGGJ-qhV-PKVwyTEPuyi9cIhjB");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 49%;
+    margin-bottom: 65px;
+}
+
+#scrapbookImg{
+    width: 100%;
+    padding-left: 130px;
+    padding-top: 120px;
+    padding-right: 150px;
+}
+
+#scrapbookText{
+    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS5Z1oXI_qgNiG0qj_4Yg817_bGGJ-qhV-PKVwyTEPuyi9cIhjB");
+    background-repeat: no-repeat;
+    background-size: 1000px 1000px;
+    margin-bottom: 65px;
+}
+
+#largeScrapbookBg{
+    background-image: url("https://i.redd.it/ya3vuzyoh3z81.jpg");
+}
+
+.containerScrapbook{
+    border-style: solid;
+    border-color: black;
+    border-radius: 2%;
+    border-width: 5px;
+}
+
+/* Carousel styles */
+.c-item {
+    height: 1000px;
+  }
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+
+.card{
+    width: 50% !important;
+}
+
