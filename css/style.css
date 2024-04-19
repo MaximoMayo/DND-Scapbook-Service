@@ -11,6 +11,7 @@
     list-style-type: circle;
 }
 
+/* Background style for nav */
 .linkBgSetNew{
     background-color: #B68760;
 }
@@ -48,19 +49,3 @@
     border-radius: 2%;
     border-width: 5px;
 }
-
-/* Carousel styles */
-.c-item {
-    height: 1000px;
-  }
-  
-  .c-img {
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(0.6);
-  }
-
-.card{
-    width: 50% !important;
-}
-
