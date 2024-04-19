@@ -8,6 +8,8 @@
 ![Screenshot](https://github.com/MaximoMayo/DND-Scapbook-Service/blob/main/images/readMeImage5.png)
 
 I enjoyed this entire snippet where I challenged myself to figure it out without using a premade format and being a little creative
+
+
 /* Scrapbook styles */
 #scrapbookBg{
     background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS5Z1oXI_qgNiG0qj_4Yg817_bGGJ-qhV-PKVwyTEPuyi9cIhjB");
