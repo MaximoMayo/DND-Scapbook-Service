@@ -49,3 +49,26 @@
     border-radius: 2%;
     border-width: 5px;
 }
+
+
+/* Product Card styles */
+.col{
+    width: 30% ;
+    padding-left: 60px;
+    margin-left: 40px;
+}
+.cardbody{
+    width: 90%;
+}
+
+/* Background styles for pages */
+
+#productPageBg{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a4f488ab-d37d-4cd5-988c-cea12cb26f10/df2twk2-6adc13af-4103-4b73-af39-03cfac0e7f1d.png/v1/fill/w_1600,h_1132,q_80,strp/dnd__tides_of_chaos_map_by_obtusestrawberry_df2twk2-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTEzMiIsInBhdGgiOiJcL2ZcL2E0ZjQ4OGFiLWQzN2QtNGNkNS05ODhjLWNlYTEyY2IyNmYxMFwvZGYydHdrMi02YWRjMTNhZi00MTAzLTRiNzMtYWYzOS0wM2NmYWMwZTdmMWQucG5nIiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.qbgwOZrlNiVKedyg3RVMBQHXkKtFJchGp72VoA23iZs");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.loginPageBg{
+    background-color: #8395c1;
+}
