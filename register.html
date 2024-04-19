@@ -72,14 +72,15 @@
   </header>
 
     <main>
+      <!--Layout pasted and modified from Bootstrap-->
       <section class="h-100 loginPageBg text-dark">
         <div class="container py-5 h-100">
-          <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100 loginPageBg">
             <div class="col">
               <div class="card card-registration my-4">
                 <div class="row g-0">
-                  <div class="col-xl-6 d-none d-xl-block">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp"
+                  <div class="col-xl-6 d-none d-xl-block py-5">
+                    <img src="https://pbs.twimg.com/media/EHhoASWU0AETj3X.jpg:large"
                       alt="Sample photo" class="img-fluid"
                       style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
                   </div>
@@ -101,31 +102,31 @@
                           </div>
                         </div>
                       </div>
-      
-                      <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
-      
+                      <!--Instead of side to side, made them layer on top of one another-->
+                      <div class="d-md-flex flex-column justify-content-end align-items-center mb-4 py-2">
+                        <!--Radio Buttons-->
                         <h6 class="mb-0 me-4">How did you hear about us? </h6>
       
-                        <div class="form-check form-check-inline mb-0 me-4">
+                        <div class="form-check mb-0 me-4">
                           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
                             value="option1" />
                           <label class="form-check-label" for="femaleGender">Word of mouth</label>
                         </div>
       
-                        <div class="form-check form-check-inline mb-0 me-4">
+                        <div class="form-check mb-0 me-4">
                           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
                             value="option2" />
                           <label class="form-check-label" for="maleGender">Search engine</label>
                         </div>
       
-                        <div class="form-check form-check-inline mb-0">
+                        <div class="form-check mb-0">
                           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
                             value="option3" />
                           <label class="form-check-label" for="otherGender">Other</label>
                         </div>
       
                       </div>
-      
+                      <!--Text forms-->
                       <div data-mdb-input-init class="form-outline mb-4">
                         <input type="text" id="form3Example9" class="form-control form-control-lg" required/>
                         <label class="form-label" for="form3Example9">Username</label>
@@ -140,12 +141,12 @@
                         <input type="text" id="form3Example99" class="form-control form-control-lg" required/>
                         <label class="form-label" for="form3Example99">Password confirmation</label>
                       </div>
-      
+                      
                       <div data-mdb-input-init class="form-outline mb-4">
                         <input type="text" id="form3Example8" class="form-control form-control-lg" required/>
                         <label class="form-label" for="form3Example8">Email Address</label>
                       </div>
-      
+                      <!--Button styles-->
                       <div class="d-flex justify-content-end pt-3">
                         <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-light btn-lg">Reset all</button>
                         <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-warning btn-lg ms-2">Submit form</button>
