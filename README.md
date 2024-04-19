@@ -9,7 +9,7 @@
 
 I enjoyed this entire snippet where I challenged myself to figure it out without using a premade format and being a little creative
 /* Scrapbook styles */
-<!--#scrapbookBg{
+#scrapbookBg{
     background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS5Z1oXI_qgNiG0qj_4Yg817_bGGJ-qhV-PKVwyTEPuyi9cIhjB");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -41,9 +41,9 @@ I enjoyed this entire snippet where I challenged myself to figure it out without
     border-radius: 2%;
     border-width: 5px;
 }
--->
 
-<!--
+
+
 <main>
          <div class="container linkBgSetNew">
             <div class="d-flex justify-content-center">
@@ -123,4 +123,4 @@ I enjoyed this entire snippet where I challenged myself to figure it out without
             </div>
          </div>
       </main>
--->
+
