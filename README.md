@@ -2,6 +2,10 @@
  This website will be dedicated to note taking and memorialising the fond moments when playing DND. An interactive and intuitive website to make keeping track of whats happening in a session more fun and impactful.
 
 ![Screenshot](https://github.com/MaximoMayo/DND-Scapbook-Service/blob/main/images/readMeImage1.png)
+![Screenshot](https://github.com/MaximoMayo/DND-Scapbook-Service/blob/main/images/readMeImage2.png)
+![Screenshot](https://github.com/MaximoMayo/DND-Scapbook-Service/blob/main/images/readMeImage3.png)
+![Screenshot](https://github.com/MaximoMayo/DND-Scapbook-Service/blob/main/images/readMeImage4.png)
+![Screenshot](https://github.com/MaximoMayo/DND-Scapbook-Service/blob/main/images/readMeImage5.png)
 
 I enjoyed this entire snippet where I challenged myself to figure it out without using a premade format and being a little creative
 /* Scrapbook styles */
