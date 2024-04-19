@@ -71,6 +71,7 @@
     </div>
   </header>
 
+  <!--Table with products-->
   <div class="container">
     <div class="row linkBgSetNew border border-primary">
       <div class="col-md-12">
@@ -126,20 +127,34 @@
               <h6 class="text-uppercase">Payment details</h6>
               <div class="inputbox mt-3"> <input type="text" name="name" class="form-control" required="required"> <span>Name on card</span> </div>
 
-
+              <!--Adding a select element-->
               <div class="row">
 
-                  <div class="col-md-6">
+                  <div class="col-md-4">
 
                       <div class="inputbox mt-3 mr-2"> <input type="text" name="name" class="form-control" required="required"> <i class="fa fa-credit-card"></i> <span>Card Number</span> 
 
+                        <div class="d-block my-3">
+                          <div class="custom-control custom-radio">
+                            <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
+                            <label class="custom-control-label" for="credit">Credit card</label>
+                          </div>
+                          <div class="custom-control custom-radio">
+                            <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                            <label class="custom-control-label" for="debit">Debit card</label>
+                          </div>
+                          <div class="custom-control custom-radio">
+                            <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                            <label class="custom-control-label" for="paypal">Paypal</label>
+                          </div>
+                        </div>
 
                       </div>
                       
 
                   </div>
 
-                  <div class="col-md-6">
+                  <div class="col-md-4">
 
                        <div class="d-flex flex-row">
 
@@ -151,6 +166,9 @@
 
                        </div>
                       
+
+                  </div>
+                  <div class="col-md-4">
 
                   </div>
                   
