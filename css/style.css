@@ -88,3 +88,13 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.wantedPosterRegister{
+    background-image: url("https://cdn2.inkarnate.com/cdn-cgi/image/width=1800,height=1400/https://inkarnate-api-as-production.s3.amazonaws.com/MVAiDKgjPPF6DoqUg1gmBX");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.innerPosterRegister{
+    background-image:inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
